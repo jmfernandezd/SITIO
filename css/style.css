@@ -1,0 +1,157 @@
+/*font-family: 'Baloo Tamma', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'BenchNine', sans-serif;
+font-family: 'Vidaloka', serif;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+
+	
+}
+
+/* ETIQUETAS*/
+
+body{
+
+background: white;
+background-repeat: no-repeat;
+background-size: cover;
+
+} 
+
+h1{
+font-family: 'Baloo Tamma', cursive;
+color: brown;
+margin-left: 10px;
+font-size: 40px;
+text-align: center;
+}
+
+h2{
+font-family: 'Vidaloka', serif;
+margin-left: 20px;
+font-size: 20px;
+text-align: center;
+}
+
+h3{
+font-family: 'BenchNine', sans-serif;
+color: white;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+header{
+	width: 1000px;
+	height: 150px;
+	background: rgba(255,255,255,3,5);
+	outline: 2px dashed #000099;
+    outline-offset: 15px;
+    
+
+}
+
+nav{
+width: 1000px;
+height: 50px;
+background: rgb(255,89,0);
+border-radius: 10px;
+margin-top: 30px;
+
+
+}
+
+nav ul{
+margin: auto;
+padding-top: 4px;	
+}
+
+nav li{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: rgb(0,102,128);
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset;
+
+}
+
+section{
+	width: 700px;
+	background: #B3B3B3;
+	height: 600px;
+	float: left;
+	margin-top: 20px;	
+	border-radius: 10px;
+	
+}
+
+aside{
+	width: 280px;
+	background: rgb(0,102,128);
+	height: 600px;
+	float: left;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+
+}
+aside li{
+	clear: both;
+	width: 150px;
+    float: center;
+	list-style-type: none;
+	padding: 10px;
+	background: rgb(242, 184, 13);
+	margin: 10px;
+	border-radius: 35px / 20px;
+	box-shadow: 0 0 10px white inset;
+	text-align: center;
+	
+
+
+
+}
+
+footer{
+	clear: both;
+	width: 1000px;
+	height: 50px;
+	background: maroon;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;	
+	margin-bottom: 20px;
+
+}
+
+p{
+	font-size: 12px;
+	font-weight: bolder;
+	line-height: 15px;
+	padding: 10px;
+	text-align: justify;
+
+}
+
+/* CLASES*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px}
+
+.menu:link{color: white; text-decoration: none;}
+.menu:visited{color: white; text-decoration: none;}
+.menu:hover{color: white; text-decoration: none; text-shadow: 0 0 10px white}
+.menu:active{color: white; text-decoration: none;}
+
+
+
