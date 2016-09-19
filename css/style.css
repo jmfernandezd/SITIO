@@ -42,13 +42,13 @@ text-align: center;
 
 h3{
 color: white;
-font-size: 15px;
+font-size: 10px;
 text-align: left;
 
 }
 h4{
 color: white;
-font-size: 15px;
+font-size: 10px;
 text-align: center;
 
 }
@@ -80,6 +80,7 @@ padding-top: 4px;
 }
 
 nav li{
+	width: 150px;
 	float: left;
 	list-style-type: none;
 	padding: 10px;
@@ -87,6 +88,7 @@ nav li{
 	margin: 3px;
 	border-radius: 10px;
 	box-shadow: 0 0 10px white inset;
+	text-align: center;
 
 }
 
@@ -130,7 +132,7 @@ aside li{
 footer{
 	clear: both;
 	width: 1000px;
-	height: 100px;
+	height: 80px;
 	background: black;
 	float: left;
 	margin-top: 20px;
